@@ -20,5 +20,4 @@ class TodolistsControllerTest < ActionDispatch::IntegrationTest
     get todolists_edit_url
     assert_response :success
   end
-
 end
